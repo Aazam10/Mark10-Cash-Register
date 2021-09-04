@@ -1,10 +1,10 @@
-
-:root{
-    --primary-color:#4C1D95;
-    --secondarry-color:#A5B4FC;
+:root {
+    --primary-color: #4C1D95;
+    --secondarry-color: #A5B4FC;
 
 }
-.container{
+
+.container {
     width: 100%;
     max-width: 600px;
     min-height: 200px;
@@ -14,38 +14,43 @@
     background-color: var(--primary-color);
     color: white;
 }
-.heading{
+
+.heading {
     text-align: center;
     margin: 1rem;
-    color:white;
+    color: white;
 }
-.description{
+
+.description {
     text-align: center;
-    margin:1rem auto;
+    margin: 1rem auto;
     font-size: large;
-    max-width:500px;
-    color:white;
-    
+    max-width: 500px;
+    color: white;
+
 }
 
 
-label{
+label {
     display: block;
 }
-#bill-label{
-    font-size:1.3rem;
-    padding:1rem;
+
+#bill-label {
+    font-size: 1.3rem;
+    padding: 1rem;
     margin: 1rem;
     color: var(--secondarry-color);
 }
-#bill-amount{
+
+#bill-amount {
     width: 90%;
     padding: 1rem;
     height: 30px;
     display: block;
     margin: 1rem auto;
 }
-.next{
+
+.next {
     padding: 0.5rem 1rem;
     display: block;
     font-size: 1rem;
@@ -55,27 +60,30 @@ label{
     color: var(--primary-color);
     font-weight: bold;
 }
-.message{
+
+.message {
     text-align: center;
     font-size: 1.5rem;
-    padding:1rem;
-    margin:1rem;
+    padding: 1rem;
+    margin: 1rem;
 }
-#cash-label{
- font-size:1.3rem;
-    padding:1rem;
+
+#cash-label {
+    font-size: 1.3rem;
+    padding: 1rem;
     margin: 1rem;
     color: var(--secondarry-color);
 }
 
-#cash-given{
-     width: 90%;
+#cash-given {
+    width: 90%;
     padding: 1rem;
     height: 30px;
     display: block;
     margin: 1rem auto;
 }
-#check{
+
+#check {
     padding: 0.5rem 1rem;
     display: block;
     font-size: 1rem;
@@ -85,32 +93,39 @@ label{
     color: var(--primary-color);
     font-weight: bold;
 }
-.wrap-table{
+
+.wrap-table {
     box-sizing: border-box;
 }
 
-.label-return{
+.label-return {
     text-align: center;
     font-size: 1.3rem;
     padding: 1.5rem 1rem 0.5rem;
     color: var(--secondarry-color);
     font-weight: bolder;
 }
-.cash-table{
-    margin:1rem 0rem;
+
+.cash-table {
+    margin: 1rem 0rem;
 }
-#output table, th, td {
+
+#output table,
+th,
+td {
     padding: 0.2rem;
     color: var(--primary-color);
     background-color: var(--secondarry-color);
     border: 2px solid var(--primary-color);
     border-collapse: collapse;
 }
-table{
+
+table {
     width: 100%;
     table-layout: fixed;
 }
 
-th,td{
+th,
+td {
     word-wrap: break-word;
 }
