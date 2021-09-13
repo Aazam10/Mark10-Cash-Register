@@ -31,7 +31,15 @@ function calculate() {
     hideNotesTable();
     let cash = cashGiven.value;
     let bill = billAmount.value;
-    if (cash - bill === 0) {
+    if(bill<=0 ){
+        displayMessage = "Invalid bill amount";
+        errorMessage(displayMessage);
+    }else if(cash<=0){
+        displayMessage = "Cash Given cannot be 0 or negative";
+        errorMessage(displayMessage);
+    }
+    else{
+         if (cash - bill === 0) {
         zeroReturn()
 
 
@@ -46,6 +54,8 @@ function calculate() {
         errorMessage(displayMessage);
 
     }
+    }
+   
 }
 
 function hideMessage() {
