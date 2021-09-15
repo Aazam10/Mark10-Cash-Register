@@ -13,7 +13,7 @@ var notes = [2000, 500, 100, 10, 5, 1];
 
 clickNext.addEventListener("click", () => {
     hideMessage();
-    if (billAmount.value >= 0) {
+    if (billAmount.value > 0) {
         cashGivenDiv.style.display = "block";
         clickNext.style.display = "none";
     } else {
